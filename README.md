@@ -1,5 +1,6 @@
 # rc-z80ram
  CPU+RAM+Clock+Reset for RC2014
+![Assembled PD101](/img/assembled.jpg)
 
 ## Overview
 This RC2014-compatible card provides a Z80 CPU, pageable RAM (fixed at the full 64K memory space, but disableable by the PAGE signal), and CLK and CLK2 signals. Reset supervision is provided.
