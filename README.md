@@ -33,6 +33,7 @@ No reset button is provided, but the included DS1233 reset supervisor will clean
 
 ## Jumper settings
 Refer to the back of the board for detailed jumper setting instructions.
+![Jumper settings](/img/jumpers.jpg)
 
 ## Standard vs Enhanced bus
 While this card can be used on a Standard Bus backplane (like the RC2014 Backplane-5 or Backplane-8), the RAM is basically unusable (since there's no way to page it out or fill it through bus control). If you intend to use it this way, omit the RAM chip, 4017, and all jumpers except JP3. If you're looking for an Enhanced backplane, I recommend Stephen C Cousins' [SC112](https://smallcomputercentral.wordpress.com/sc112-modular-backplane-rc2014/) (optionally with [SC113](https://smallcomputercentral.wordpress.com/sc113-modular-backplane-rc2014/)).
